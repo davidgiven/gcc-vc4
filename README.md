@@ -5,7 +5,7 @@ An experimental port of gcc 4.8.1 to the VideoCore IV.
 
 To build, create an object directory and in it, do:
 
-    $SRCDIR/configure --target=i586-elf --disable-nls --enable-languages=c --without-headers
+    $SRCDIR/configure --target=vc4-elf --disable-nls --enable-languages=c --without-headers
     make -j4 all-gcc
 
 To run:
